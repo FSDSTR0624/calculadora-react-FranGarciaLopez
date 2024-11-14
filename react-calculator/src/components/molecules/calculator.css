@@ -1,0 +1,77 @@
+.calculatorSkeleton {
+          width: 450px;
+          height: 1000px;
+          background: linear-gradient(145deg, #444444, #222222);
+          border-radius: 45px;
+          overflow: hidden;
+          position: relative;
+}
+
+.logo {
+          display: flex;
+          flex-direction: row;
+          margin: 40px 20px;
+          font-family: 'Eurostile', 'Courier New', Courier, monospace;
+          font-size: large;
+          font-weight: 600;
+          color: white;
+}
+
+.calculatorScreen {
+          display: flex;
+          flex-direction: row;
+          padding: 70px 10px;
+          margin: 40px 20px;
+
+          color: black;
+          background: linear-gradient(145deg, #E4E9E5, #D4DED6);
+          border-radius: 10px;
+          box-shadow: inset 5px 5px 10px #000000, inset -5px -5px 10px #000000;
+          width: 400px;
+          height: 100px;
+          font-size: 2em;
+          align-items: center;
+}
+
+.calculatorKeys {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 10px;
+          justify-items: center;
+          max-width: 400px;
+          margin: 10px auto;
+}
+
+.functionalityKeys {
+          display: grid;
+          grid-template-columns: repeat(4, 1fr);
+          gap: 10px;
+          justify-items: center;
+          max-width: 400px;
+          margin: 10px auto;
+}
+
+
+button {
+          height: 40px;
+          width: 40px;
+          border-radius: 50%;
+          margin: 5px;
+          background-color: #131313c7;
+          color: white;
+}
+
+.symbol-key {
+          background-color: #f5f5f5;
+          color: black;
+}
+
+.operator-key {
+          background-color: #f5f5f5;
+          color: black;
+}
+
+.key {
+          background-color: #131313c7;
+          color: white;
+}
